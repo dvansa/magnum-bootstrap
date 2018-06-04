@@ -1,0 +1,9 @@
+[submodule "dependencies/corrade"]
+	path = dependencies/corrade
+	url = https://github.com/mosra/corrade
+[submodule "dependencies/magnum"]
+	path = dependencies/magnum
+	url = https://github.com/mosra/magnum
+[submodule "dependencies/imgui/imgui"]
+	path = dependencies/imgui/imgui
+	url = https://github.com/ocornut/imgui

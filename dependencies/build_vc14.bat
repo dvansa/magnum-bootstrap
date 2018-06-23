@@ -14,7 +14,7 @@ mkdir build 2>NUL
 cd build
 
 :: VS2014 env
-CALL "C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\vcvarsall.bat" x64
+CALL "%VS140COMNTOOLS%..\..\VC\vcvarsall.bat" x64
 
 :: Build
 cmake -G "Visual Studio 14 2015" ..

@@ -9,6 +9,8 @@ IF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 ENDIF(CMAKE_INSTALL_PREFIX_INITIALIZED_TO_DEFAULT)
 
 #Add dependencies
+add_subdirectory(glfw)
 add_subdirectory(corrade)
 add_subdirectory(magnum)
 add_subdirectory(imgui)
+
